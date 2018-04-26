@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="submit" class="com.action.Submit" >
+        	<result name="Bus">/result.jsp</result>
+        	<result name="Metro">/result.jsp</result>
+        	<result name="Auto">/result.jsp</result>
+        	<result name="Mixed">/mixedResult.jsp</result>
+        	<result name="input">/index.jsp</result>
+        </action>
+        <action name="Result" class="com.action.Result">
+        	<result name="success">/details.jsp</result>
+        	<result name="input">/index.jsp</result>
+        </action>
+    </package>
+</struts>

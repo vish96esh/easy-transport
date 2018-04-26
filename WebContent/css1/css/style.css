@@ -1,0 +1,60 @@
+.search-bar ul{margin:0px; padding:0px;}
+   .search-bar ul>li{padding:0px; list-style-type:none; float:left;}
+ 
+   
+   .search-bar ul>li label{color: rgba(0,0,0,0.6); font-size: 20px; left: 10px; position: absolute;  top: 6px;}
+   
+   .search-bar ul>li:first-child>.ui-widget>input{border-radius: 0; height: 40px;border-width:px; border-right-color:black;margin:0px;  padding-left:34px;}
+
+   .search-bar ul>li:nth-child(2)>.ui-widget>input{border-radius: 0; height: 40px; margin:0px;border-right-color:black;border-left:0px; padding-left:34px;}
+
+   
+   .search-bar ul>li:nth-child(3)>.ui-widget>input{border-radius: 0; height: 40px; margin:0px;border-left:0px; padding-left:34px;}
+   
+   .search-bar ul>li:last-child>.ui-widget>button{border-radius: 0; height: 40px; margin:0px;border-left:0px; }
+   
+.fp{
+	color:white;
+	background-color:rgb(2,146,146);
+	font-size:15px;
+}
+@media (min-width:983px)
+{
+	.search-bar{
+		margin-left:15%;
+	}
+   .search-bar ul>li:first-child{width:150px; position:relative;}
+       .search-bar ul>li:nth-child(2){width:250px; position:relative;}
+	   .search-bar ul>li:nth-child(3){width:160px; position:relative;}
+	      .search-bar ul>li:last-child{width:100px; }
+}
+
+@media (max-width:982px) and (min-width:873px)
+{
+	
+	.search-bar ul>li:first-child{width:120px; position:relative;}
+	.search-bar ul>li:nth-child(2){width:220px; position:relative;}
+	.search-bar ul>li:nth-child(3){width:130px; position:relative;}
+	.search-bar ul>li:last-child{width:80px; }
+}
+@media (max-width:872px) and (min-width:768px)
+{
+	.search-bar ul>li:first-child{width:85px; position:relative;}
+	.search-bar ul>li:nth-child(2){width:185px; position:relative;}
+	.search-bar ul>li:nth-child(3){width:95px; position:relative;}
+	.search-bar ul>li:last-child{width:60px; }
+}
+@media (max-width:767px)
+{
+	.search-bar ul>li:first-child{width:20%; position:relative;}
+    .search-bar ul>li:nth-child(2){width:40%; position:relative;}
+	.search-bar ul>li:nth-child(3){width:20%; position:relative;}
+	.search-bar ul>li:last-child{width:20% }
+}
+.fk
+{
+	border-width:2px;
+	border-color:rgb(0,191,243);
+	border-style:solid;
+	
+}
